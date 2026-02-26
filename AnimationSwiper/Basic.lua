@@ -9,4 +9,4 @@ getgenv().emotes = {
 
 getgenv().animationPack = 'Vampire' 
 
-loadstring(game:HttpGet('https://redphubss.vercel.app/scripts/AnimationSwiper/OthFiles/Animation.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/RedPulseDir/RedRaw/refs/heads/main/AnimationSwiper/Animation.lua'))()
