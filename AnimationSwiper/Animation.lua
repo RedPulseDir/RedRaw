@@ -68,4 +68,4 @@ repeat wait() until Players.LocalPlayer and Players.LocalPlayer.Character
 LocalPlayer = Players.LocalPlayer
 pcall(UpdateCharacter,LocalPlayer.Character)
 LocalPlayer.CharacterAdded:Connect(UpdateCharacter)
-print("ЕБАЛАЙ Я ЗАМЕНИЛ")
+
