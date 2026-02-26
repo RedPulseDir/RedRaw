@@ -6,7 +6,7 @@ local MarketplaceService = game:GetService("MarketplaceService")
 
 local LocalPlayer = Players.LocalPlayer
 
-local Bundles = HttpService:JSONDecode(game:HttpGet("https://redphubss.vercel.app/scripts/AnimationSwiper/OthFiles/Animations.json'))
+local Bundles = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.com/RedPulseDir/RedRaw/refs/heads/main/AnimationSwiper/Animations.json'))
 
 function ApplyAnimations(Animations,Character)
     local Animate = Character:FindFirstChild('Animate') or Character:WaitForChild('Animate')
